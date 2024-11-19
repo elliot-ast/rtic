@@ -48,6 +48,8 @@ pub use rtic_time::{
 
 #[cfg(feature = "esp32c3-systimer")]
 pub mod esp32c3;
+#[cfg(feature = "esp32c6-systimer")]
+pub mod esp32c6;
 
 #[cfg(feature = "cortex-m-systick")]
 pub mod systick;
